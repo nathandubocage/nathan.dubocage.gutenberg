@@ -1,0 +1,10 @@
+.wp-block-create-block-block-2 {
+	.container-block-2 {
+		display: flex;
+		gap: 20px;
+
+		& > * {
+			flex: 1;
+		}
+	}
+}

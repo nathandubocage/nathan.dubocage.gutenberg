@@ -1,0 +1,1 @@
+{"version":3,"file":"block-2/style-index.css","mappings":";;;AAAA;EACC;EACA;AACD;AACC;EACC;AACF,C","sources":["webpack://nathan.dubocage.gutenberg/./src/block-2/style.scss"],"sourcesContent":[".wp-block-create-block-block-2 {\n\tdisplay: flex;\n\tgap: 20px;\n\n\t& > * {\n\t\tflex: 1;\n\t}\n}\n"],"names":[],"sourceRoot":""}

@@ -1,0 +1,30 @@
+/*!***********************************************************************************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/css-loader/dist/cjs.js??ruleSet[1].rules[3].use[1]!./node_modules/postcss-loader/dist/cjs.js??ruleSet[1].rules[3].use[2]!./node_modules/sass-loader/dist/cjs.js??ruleSet[1].rules[3].use[3]!./src/block-1/style.scss ***!
+  \***********************************************************************************************************************************************************************************************************************************************/
+.wp-block-create-block-block-1 {
+  position: relative;
+}
+.wp-block-create-block-block-1 img {
+  width: 100%;
+  height: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+.wp-block-create-block-block-1 img + .content {
+  position: static;
+  background-color: transparent;
+  transform: none;
+  padding: 0;
+}
+.wp-block-create-block-block-1 img[src] + .content {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background-color: rgba(255, 255, 255, 0.8);
+  color: black;
+  font-family: Arial, Helvetica, sans-serif;
+  padding: 10px;
+}
+
+/*# sourceMappingURL=style-index.css.map*/

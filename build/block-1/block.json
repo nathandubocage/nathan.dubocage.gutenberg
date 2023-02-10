@@ -1,0 +1,44 @@
+{
+  "$schema": "https://schemas.wp.org/trunk/block.json",
+  "apiVersion": 2,
+  "name": "create-block/block-1",
+  "version": "1.0.0",
+  "title": "Texte sur image",
+  "category": "widgets",
+  "icon": "screenoptions",
+  "description": "Bloc avec une image de fond et un texte centré dessus.",
+  "supports": {
+    "html": false
+  },
+  "attributes": {
+    "content": {
+      "type": "string",
+      "source": "html",
+      "selector": ".content"
+    },
+    "pictureID": {
+      "type": "number",
+      "default": null
+    },
+    "pictureURL": {
+      "type": "string",
+      "source": "attribute",
+      "attribute": "src",
+      "selector": "img"
+    },
+    "pictureAlt": {
+      "type": "string",
+      "source": "attribute",
+      "attribute": "alt",
+      "selector": "img"
+    }
+  },
+  "keywords": [
+    "Bloc un",
+    "Nathan Dubocage"
+  ],
+  "textdomain": "nathan.dubocage.gutenberg",
+  "editorScript": "file:./index.js",
+  "editorStyle": "file:./index.css",
+  "style": "file:./style-index.css"
+}
